@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>svg</title>
+  <style type="text/css">
+    svg {
+      stroke: #000;
+      stroke-width: 5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    svg.arrow {
+      background: lightblue;
+      stroke: #fff;
+    }
+
+    svg.arrow-s {
+      background: lightblue;
+      stroke: #fff;
+      stroke-width: 1;
+    }
+    
+  </style>
+</head>
+<body>
+  <svg width="500" height="500">
+    <line x1="10" y1="10" x2="48" y2="10"></line>
+    <line x1="10" y1="30" x2="88" y2="30"></line>
+    <line x1="10" y1="50" x2="48" y2="50"></line>
+    <line x1="10" y1="70" x2="88" y2="70"></line>
+  </svg>
+
+  <svg class="arrow" width="500" height="500">
+    <polyline points="
+      10 10
+      30 30
+      10 50
+    ">
+    </polyline>
+  </svg>
+</body>
+</html>
+
+
+<!-- <svg t="1533554299675" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4883" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+  <defs><style type="text/css"></style></defs>
+  <path d="M730.819336 511.999872L238.373434 979.819639a25.598893 25.598893 0 1 0 35.275275 37.118394l511.977857-486.378964a25.598893 25.598893 0 0 0 0-37.118394l-511.977857-486.378964a25.598893 25.598893 0 0 0-35.275275 37.118394L730.819336 511.999872z" p-id="4884" fill="#ffffff"></path>
+</svg>
+
+<svg t="1533554299675" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4883" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200">
+  <defs><style type="text/css"></style></defs>
+  <path d="M730.819336 511.999872L238.373434 979.819639a25.598893 25.598893 0 1 0 35.275275 37.118394l511.977857-486.378964a25.598893 25.598893 0 0 0 0-37.118394l-511.977857-486.378964a25.598893 25.598893 0 0 0-35.275275 37.118394L730.819336 511.999872z" p-id="4884"></path>
+</svg> -->
